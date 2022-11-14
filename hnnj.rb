@@ -1,9 +1,6 @@
  require "bundler/setup"
  Bundler.require
 
-# require 'sinatra'
-# require 'sinatra/cors'
-# require 'faraday'
 require 'json'
 
 set :allow_origin, "http://localhost:3000 https://burauza.vercel.app"
@@ -21,7 +18,6 @@ end
 
 SUBJECT_URL = 'https://jbbs.shitaraba.net/bbs/subject.cgi/game/59121/'.freeze
 THREADS_URL = 'https://jbbs.shitaraba.net/game/59121/subject.txt'.freeze
-# https://jbbs.shitaraba.net/bbs/rawmode.cgi/game/59121/1661134821/
 THREAD_URL = 'https://jbbs.shitaraba.net/bbs/rawmode.cgi/game/59121/'.freeze
 WRITE_URL = 'https://jbbs.shitaraba.net/bbs/write.cgi/'.freeze
 # test ita
