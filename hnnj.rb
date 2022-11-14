@@ -3,7 +3,7 @@
 
 require 'json'
 
-set :allow_origin, "http://localhost:3000 https://burauza.vercel.app"
+set :allow_origin, "http://localhost:3000 https://burauza.vercel.app https://hnnj.vercel.app"
 set :allow_methods, "GET,HEAD,POST,OPTIONS"
 set :allow_headers, "content-type,if-modified-since"
 set :expose_headers, "location,link"
